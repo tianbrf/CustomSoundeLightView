@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomControlBar">
+        <attr name="bigImage" format="reference"/>
+        <attr name="minImage" format="reference" />
+        <attr name="lineHeight" format="dimension|reference"/>
+        <attr name="lineWidth" format="dimension|reference"/>
+        <attr name="lineColor" format="color"/>
+        <attr name="splitHeight" format="dimension|reference"/>
+    </declare-styleable>
+
+    <attr name="firstColor" format="color" />
+    <attr name="secondColor" format="color" />
+    <attr name="circleWidth" format="dimension" />
+    <attr name="dotCount" format="integer" />
+    <attr name="splitSize" format="integer" />
+    <attr name="bg" format="reference"></attr>
+
+    <declare-styleable name="CustomVolumControlBar">
+        <attr name="firstColor" />
+        <attr name="secondColor" />
+        <attr name="circleWidth" />
+        <attr name="dotCount" />
+        <attr name="splitSize" />
+        <attr name="bg" />
+    </declare-styleable>
+</resources>

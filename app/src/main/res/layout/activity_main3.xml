@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.brf.bq.customsoundelightview.Main3Activity">
+
+    <com.brf.bq.customsoundelightview.widget.CustomVolumControlBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:bg="@mipmap/ic_launcher"
+        app:circleWidth="12dp"
+        app:dotCount="20"
+        app:firstColor="#252420"
+        app:secondColor="#FDFDFD"
+        app:splitSize="25" />
+</RelativeLayout>
